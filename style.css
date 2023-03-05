@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+      
+      .ctrl{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin:1px 10px;
+      }
+      
+      body{
+        background-color:rgb(176, 245, 227);
+      }
+      #q{
+        color: rgb(248, 2, 2);
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 12px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        
+
+      }
+      input{
+        display: none;
+      }
+      .div{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+      }
+      .btn{
+        margin: 7px;
+        margin-left: 49vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      button:hover{
+        
+        background-color: rgb(144, 107, 180);
+        color: antiquewhite;
+        border: 1px solid rgb(121, 182, 154);
+      }
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 500px){ 
+    input{
+        display: block;
+    }
+    
+ }
